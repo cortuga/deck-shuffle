@@ -5,8 +5,59 @@
 html {
   height: 100%;
 }
+h1 {
+  display: flex;
+  justify-content: center;
+}
 
 body {
   margin: 0;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+}
+.top-main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image-section {
+  display: contents;
+}
+
+button {
+  padding: 3%;
+  font-size: 1rem;
+}
+.hand-section {
+  padding: 15%;
+  /* position: relative; */
+  /* display: flex; */
+  justify-content: center;
+}
+p {
+  font-size: 2rem;
+}
+img {
+  width: 50%;
+  height: auto;
+}
+.card-image {
+  display: flex;
+  align-self: center;
+}
+.shuffle-deal-div {
+  margin: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
